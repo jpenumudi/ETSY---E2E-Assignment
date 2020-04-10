@@ -1,0 +1,31 @@
+2020-04-09 23:49:32:105 [main] INFO  com.etsy.Pages.HomeAndLiving - Base -- Browser Closed
+2020-04-09 23:49:42:815 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the testcase is: verifyHmNLivingUrl
+2020-04-09 23:49:54:371 [main] INFO  com.etsy.Pages.HomeAndLiving - HomeNLivingTest: 4 - Validated Top reviews url
+2020-04-09 23:49:54:374 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed is verifyHmNLivingUrl
+2020-04-09 23:49:54:374 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed - so email is not sent
+2020-04-09 23:49:55:233 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the passed testcase screenshot is: verifyHmNLivingUrl.png
+2020-04-09 23:49:56:102 [main] INFO  com.etsy.Pages.HomeAndLiving - Base -- Browser Closed
+2020-04-09 23:50:08:220 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the testcase is: verifyShowMoreOption
+2020-04-09 23:50:15:070 [main] INFO  com.etsy.Pages.CraftSupplies - CraftSuppliesTest: 1 - Validated Show more link
+2020-04-09 23:50:15:072 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed is verifyShowMoreOption
+2020-04-09 23:50:15:073 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed - so email is not sent
+2020-04-09 23:50:15:798 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the passed testcase screenshot is: verifyShowMoreOption.png
+2020-04-09 23:50:15:798 [main] INFO  com.etsy.Pages.CraftSupplies - Base -- Browser Closed
+2020-04-09 23:50:26:148 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the testcase is: verifyCheckBox
+2020-04-09 23:50:38:134 [main] INFO  com.etsy.Pages.CraftSupplies - CraftSuppliesTest: 2 - Validated check box
+2020-04-09 23:50:38:136 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed is verifyCheckBox
+2020-04-09 23:50:38:136 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed - so email is not sent
+2020-04-09 23:50:38:900 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the passed testcase screenshot is: verifyCheckBox.png
+2020-04-09 23:50:38:901 [main] INFO  com.etsy.Pages.CraftSupplies - Base -- Browser Closed
+2020-04-09 23:50:49:517 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the testcase is: verifyRadioButton
+2020-04-09 23:50:58:111 [main] INFO  com.etsy.Pages.CraftSupplies - CraftSuppliesTest: 3 - Validated Radio Button
+2020-04-09 23:50:58:114 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed is verifyRadioButton
+2020-04-09 23:50:58:115 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed - so email is not sent
+2020-04-09 23:50:59:016 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the passed testcase screenshot is: verifyRadioButton.png
+2020-04-09 23:50:59:016 [main] INFO  com.etsy.Pages.CraftSupplies - Base -- Browser Closed
+2020-04-09 23:51:09:089 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the testcase is: verifyLocation
+2020-04-09 23:51:17:366 [main] INFO  com.etsy.Pages.CraftSupplies - CraftSuppliesTest: 4 - Validation Custom location field
+2020-04-09 23:51:17:369 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed is verifyLocation
+2020-04-09 23:51:17:369 [main] INFO  com.etsy.Pages.CraftSupplies - Test Case Passed - so email is not sent
+2020-04-09 23:51:18:153 [main] INFO  com.etsy.Pages.CraftSupplies - Name of the passed testcase screenshot is: verifyLocation.png
+2020-04-09 23:51:18:153 [main] INFO  com.etsy.Pages.CraftSupplies - Base -- Browser Closed

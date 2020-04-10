@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="8" total="25" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="324117" started-at="2020-04-09T23:45:55 EDT" finished-at="2020-04-09T23:51:20 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="324117" started-at="2020-04-09T23:45:55 EDT" finished-at="2020-04-09T23:51:20 EDT">
+      <class name="com.etsy.Tests.RegisterTest">
+        <test-method status="PASS" signature="startExtent()[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="startExtent" is-config="true" duration-ms="117" started-at="2020-04-09T23:45:55 EDT" finished-at="2020-04-09T23:45:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="setup" is-config="true" duration-ms="12480" started-at="2020-04-09T23:45:56 EDT" finished-at="2020-04-09T23:46:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyHeadingOnRegisterPage(java.lang.reflect.Method)[pri:1, instance:com.etsy.Tests.RegisterTest@70325e14]" name="verifyHeadingOnRegisterPage" duration-ms="40993" started-at="2020-04-09T23:46:08 EDT" description="Verify that the heading on the Register page is Create your account and assert that the actual heading andand expected heading are same" finished-at="2020-04-09T23:46:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Please check your actual and expected text --  expected [Create your account] but found [ ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Please check your actual and expected text --  expected [Create your account] but found [ ]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(RegisterTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadingOnRegisterPage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="teardown" is-config="true" duration-ms="1295" started-at="2020-04-09T23:46:49 EDT" finished-at="2020-04-09T23:46:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeadingOnRegisterPage status=FAILURE method=RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method)[pri:1, instance:com.etsy.Tests.RegisterTest@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="setup" is-config="true" duration-ms="6207" started-at="2020-04-09T23:46:50 EDT" finished-at="2020-04-09T23:46:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTermsOfUseLink(java.lang.reflect.Method)[pri:2, instance:com.etsy.Tests.RegisterTest@70325e14]" name="verifyTermsOfUseLink" duration-ms="4225" started-at="2020-04-09T23:46:57 EDT" description="Check the terms of use link navigates to terms of link page" finished-at="2020-04-09T23:47:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsOfUseLink -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="teardown" is-config="true" duration-ms="1586" started-at="2020-04-09T23:47:01 EDT" finished-at="2020-04-09T23:47:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsOfUseLink status=SUCCESS method=RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method)[pri:2, instance:com.etsy.Tests.RegisterTest@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="setup" is-config="true" duration-ms="12096" started-at="2020-04-09T23:47:02 EDT" finished-at="2020-04-09T23:47:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateAccountFunctionality(java.lang.reflect.Method)[pri:3, instance:com.etsy.Tests.RegisterTest@70325e14]" name="verifyCreateAccountFunctionality" duration-ms="1780" started-at="2020-04-09T23:47:15 EDT" description="Confirm that an account is created when the required fields are entered and register button clicked" finished-at="2020-04-09T23:47:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccountFunctionality -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="teardown" is-config="true" duration-ms="1908" started-at="2020-04-09T23:47:16 EDT" finished-at="2020-04-09T23:47:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateAccountFunctionality status=SUCCESS method=RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method)[pri:3, instance:com.etsy.Tests.RegisterTest@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.etsy.Tests.RegisterTest@70325e14]" name="endReport" is-config="true" duration-ms="916" started-at="2020-04-09T23:51:19 EDT" finished-at="2020-04-09T23:51:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.etsy.Tests.RegisterTest -->
+      <class name="com.etsy.Tests.HomeAndLivingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="setup" is-config="true" duration-ms="10534" started-at="2020-04-09T23:48:36 EDT" finished-at="2020-04-09T23:48:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomeNLivingTitle(java.lang.reflect.Method)[pri:10, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="verifyHomeNLivingTitle" duration-ms="5331" started-at="2020-04-09T23:48:46 EDT" finished-at="2020-04-09T23:48:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeNLivingTitle -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="teardown" is-config="true" duration-ms="1803" started-at="2020-04-09T23:48:52 EDT" finished-at="2020-04-09T23:48:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomeNLivingTitle status=SUCCESS method=HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method)[pri:10, instance:com.etsy.Tests.HomeAndLivingTest@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="setup" is-config="true" duration-ms="10225" started-at="2020-04-09T23:48:54 EDT" finished-at="2020-04-09T23:49:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySigninOptionIsPresent(java.lang.reflect.Method)[pri:11, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="verifySigninOptionIsPresent" duration-ms="6216" started-at="2020-04-09T23:49:04 EDT" finished-at="2020-04-09T23:49:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninOptionIsPresent -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="teardown" is-config="true" duration-ms="1345" started-at="2020-04-09T23:49:10 EDT" finished-at="2020-04-09T23:49:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninOptionIsPresent status=SUCCESS method=HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method)[pri:11, instance:com.etsy.Tests.HomeAndLivingTest@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="setup" is-config="true" duration-ms="7709" started-at="2020-04-09T23:49:11 EDT" finished-at="2020-04-09T23:49:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySortByFunctionality(java.lang.reflect.Method)[pri:12, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="verifySortByFunctionality" duration-ms="11651" started-at="2020-04-09T23:49:19 EDT" finished-at="2020-04-09T23:49:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByFunctionality -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="teardown" is-config="true" duration-ms="1776" started-at="2020-04-09T23:49:31 EDT" finished-at="2020-04-09T23:49:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortByFunctionality status=SUCCESS method=HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method)[pri:12, instance:com.etsy.Tests.HomeAndLivingTest@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="setup" is-config="true" duration-ms="9790" started-at="2020-04-09T23:49:33 EDT" finished-at="2020-04-09T23:49:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHmNLivingUrl(java.lang.reflect.Method)[pri:13, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="verifyHmNLivingUrl" duration-ms="11560" started-at="2020-04-09T23:49:42 EDT" finished-at="2020-04-09T23:49:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHmNLivingUrl -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomeAndLivingTest@20d525]" name="teardown" is-config="true" duration-ms="2524" started-at="2020-04-09T23:49:54 EDT" finished-at="2020-04-09T23:49:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHmNLivingUrl status=SUCCESS method=HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method)[pri:13, instance:com.etsy.Tests.HomeAndLivingTest@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.etsy.Tests.HomeAndLivingTest -->
+      <class name="com.etsy.Tests.SignInTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="setup" is-config="true" duration-ms="10031" started-at="2020-04-09T23:47:18 EDT" finished-at="2020-04-09T23:47:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegisterButtonIsPresent(java.lang.reflect.Method)[pri:4, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="verifyRegisterButtonIsPresent" duration-ms="566" started-at="2020-04-09T23:47:28 EDT" finished-at="2020-04-09T23:47:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterButtonIsPresent -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="teardown" is-config="true" duration-ms="1463" started-at="2020-04-09T23:47:29 EDT" finished-at="2020-04-09T23:47:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterButtonIsPresent status=SUCCESS method=SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method)[pri:4, instance:com.etsy.Tests.SignInTest@37ceb1df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="setup" is-config="true" duration-ms="10324" started-at="2020-04-09T23:47:30 EDT" finished-at="2020-04-09T23:47:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyForgotPwdLink(java.lang.reflect.Method)[pri:5, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="verifyForgotPwdLink" duration-ms="6510" started-at="2020-04-09T23:47:41 EDT" finished-at="2020-04-09T23:47:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdLink -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="teardown" is-config="true" duration-ms="1564" started-at="2020-04-09T23:47:47 EDT" finished-at="2020-04-09T23:47:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPwdLink status=SUCCESS method=SignInTest.verifyForgotPwdLink(java.lang.reflect.Method)[pri:5, instance:com.etsy.Tests.SignInTest@37ceb1df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="setup" is-config="true" duration-ms="7314" started-at="2020-04-09T23:47:49 EDT" finished-at="2020-04-09T23:47:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginFunctionality(java.lang.reflect.Method)[pri:6, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="verifyLoginFunctionality" duration-ms="2167" started-at="2020-04-09T23:47:56 EDT" finished-at="2020-04-09T23:47:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.SignInTest@37ceb1df]" name="teardown" is-config="true" duration-ms="1594" started-at="2020-04-09T23:47:58 EDT" finished-at="2020-04-09T23:48:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=SignInTest.verifyLoginFunctionality(java.lang.reflect.Method)[pri:6, instance:com.etsy.Tests.SignInTest@37ceb1df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.etsy.Tests.SignInTest -->
+      <class name="com.etsy.Tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="setup" is-config="true" duration-ms="8704" started-at="2020-04-09T23:48:00 EDT" finished-at="2020-04-09T23:48:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.reflect.Method)[pri:7, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="verifyHomePageTitle" duration-ms="35" started-at="2020-04-09T23:48:08 EDT" finished-at="2020-04-09T23:48:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="teardown" is-config="true" duration-ms="1690" started-at="2020-04-09T23:48:09 EDT" finished-at="2020-04-09T23:48:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle(java.lang.reflect.Method)[pri:7, instance:com.etsy.Tests.HomePageTest@7c9d8e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="setup" is-config="true" duration-ms="8376" started-at="2020-04-09T23:48:10 EDT" finished-at="2020-04-09T23:48:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySigninOptiononHomePage(java.lang.reflect.Method)[pri:8, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="verifySigninOptiononHomePage" duration-ms="185" started-at="2020-04-09T23:48:19 EDT" finished-at="2020-04-09T23:48:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninOptiononHomePage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="teardown" is-config="true" duration-ms="1315" started-at="2020-04-09T23:48:19 EDT" finished-at="2020-04-09T23:48:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySigninOptiononHomePage status=SUCCESS method=HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method)[pri:8, instance:com.etsy.Tests.HomePageTest@7c9d8e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="setup" is-config="true" duration-ms="7745" started-at="2020-04-09T23:48:20 EDT" finished-at="2020-04-09T23:48:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySearchFunctionality(java.lang.reflect.Method)[pri:9, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="verifySearchFunctionality" duration-ms="6390" started-at="2020-04-09T23:48:28 EDT" finished-at="2020-04-09T23:48:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.HomePageTest@7c9d8e2]" name="teardown" is-config="true" duration-ms="1689" started-at="2020-04-09T23:48:34 EDT" finished-at="2020-04-09T23:48:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionality status=SUCCESS method=HomePageTest.verifySearchFunctionality(java.lang.reflect.Method)[pri:9, instance:com.etsy.Tests.HomePageTest@7c9d8e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.etsy.Tests.HomePageTest -->
+      <class name="com.etsy.Tests.CraftSuppliesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="setup" is-config="true" duration-ms="9319" started-at="2020-04-09T23:49:56 EDT" finished-at="2020-04-09T23:50:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyShowMoreOption(java.lang.reflect.Method)[pri:14, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="verifyShowMoreOption" duration-ms="8852" started-at="2020-04-09T23:50:06 EDT" finished-at="2020-04-09T23:50:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowMoreOption -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="teardown" is-config="true" duration-ms="1513" started-at="2020-04-09T23:50:15 EDT" finished-at="2020-04-09T23:50:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShowMoreOption status=SUCCESS method=CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method)[pri:14, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="setup" is-config="true" duration-ms="7560" started-at="2020-04-09T23:50:16 EDT" finished-at="2020-04-09T23:50:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCheckBox(java.lang.reflect.Method)[pri:15, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="verifyCheckBox" duration-ms="13988" started-at="2020-04-09T23:50:24 EDT" finished-at="2020-04-09T23:50:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBox -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="teardown" is-config="true" duration-ms="1494" started-at="2020-04-09T23:50:38 EDT" finished-at="2020-04-09T23:50:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckBox status=SUCCESS method=CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method)[pri:15, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="setup" is-config="true" duration-ms="7886" started-at="2020-04-09T23:50:39 EDT" finished-at="2020-04-09T23:50:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRadioButton(java.lang.reflect.Method)[pri:16, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="verifyRadioButton" duration-ms="10595" started-at="2020-04-09T23:50:47 EDT" finished-at="2020-04-09T23:50:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButton -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="teardown" is-config="true" duration-ms="1772" started-at="2020-04-09T23:50:58 EDT" finished-at="2020-04-09T23:50:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRadioButton status=SUCCESS method=CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method)[pri:16, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="setup" is-config="true" duration-ms="9201" started-at="2020-04-09T23:50:59 EDT" finished-at="2020-04-09T23:51:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLocation(java.lang.reflect.Method)[pri:17, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="verifyLocation" duration-ms="8278" started-at="2020-04-09T23:51:09 EDT" finished-at="2020-04-09T23:51:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocation -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb]" name="teardown" is-config="true" duration-ms="1814" started-at="2020-04-09T23:51:17 EDT" finished-at="2020-04-09T23:51:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLocation status=SUCCESS method=CraftSuppliesTest.verifyLocation(java.lang.reflect.Method)[pri:17, instance:com.etsy.Tests.CraftSuppliesTest@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.etsy.Tests.CraftSuppliesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

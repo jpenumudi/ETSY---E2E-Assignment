@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\17327\workspace\E2EPOMProjectWithTestNG\E2EPOMTestNGProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.RegisterTest" hash-for-method="verifyHeadingOnRegisterPage(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method))">verifyHeadingOnRegisterPage(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.CraftSuppliesTest" hash-for-method="verifyCheckBox(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.la...)">verifyCheckBox(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.la...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.RegisterTest" hash-for-method="verifyCreateAccountFunctionality(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method))">verifyCreateAccountFunctionality(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.SignInTest" hash-for-method="verifyForgotPwdLink(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method))">verifyForgotPwdLink(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomeAndLivingTest" hash-for-method="verifyHmNLivingUrl(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws jav...)">verifyHmNLivingUrl(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws jav...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomeAndLivingTest" hash-for-method="verifyHomeNLivingTitle(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method))">verifyHomeNLivingTitle(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomePageTest" hash-for-method="verifyHomePageTitle(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method))">verifyHomePageTitle(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.CraftSuppliesTest" hash-for-method="verifyLocation(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method))">verifyLocation(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.SignInTest" hash-for-method="verifyLoginFunctionality(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method))">verifyLoginFunctionality(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.CraftSuppliesTest" hash-for-method="verifyRadioButton(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java...)">verifyRadioButton(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.SignInTest" hash-for-method="verifyRegisterButtonIsPresent(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method))">verifyRegisterButtonIsPresent(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomePageTest" hash-for-method="verifySearchFunctionality(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method))">verifySearchFunctionality(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.CraftSuppliesTest" hash-for-method="verifyShowMoreOption(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws j...)">verifyShowMoreOption(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomeAndLivingTest" hash-for-method="verifySigninOptionIsPresent(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method))">verifySigninOptionIsPresent(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomePageTest" hash-for-method="verifySigninOptiononHomePage(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method))">verifySigninOptiononHomePage(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.HomeAndLivingTest" hash-for-method="verifySortByFunctionality(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) thr...)">verifySortByFunctionality(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) thr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.etsy.Tests.RegisterTest" hash-for-method="verifyTermsOfUseLink(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method))">verifyTermsOfUseLink(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.etsy.Tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeadingOnRegisterPage(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method))">
+                  </a> <!-- verifyHeadingOnRegisterPage(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyHeadingOnRegisterPage</span>
+                  <span class="parameters">(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: Please check your actual and expected text --  expected [Create your account] but found [ ]
+	at com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(RegisterTest.java:43)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the heading on the Register page is Create your account and assert that the actual heading andand expected heading are same)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.etsy.Tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method))">
+                  </a> <!-- verifyHomePageTitle(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFunctionality(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method))">
+                  </a> <!-- verifySearchFunctionality(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifySearchFunctionality</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySigninOptiononHomePage(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method))">
+                  </a> <!-- verifySigninOptiononHomePage(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifySigninOptiononHomePage</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.etsy.Tests.HomeAndLivingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHmNLivingUrl(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws jav...)">
+                  </a> <!-- verifyHmNLivingUrl(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws jav...) -->
+                  <span class="method-name">verifyHmNLivingUrl</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeNLivingTitle(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method))">
+                  </a> <!-- verifyHomeNLivingTitle(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyHomeNLivingTitle</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySigninOptionIsPresent(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method))">
+                  </a> <!-- verifySigninOptionIsPresent(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifySigninOptionIsPresent</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByFunctionality(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) thr...)">
+                  </a> <!-- verifySortByFunctionality(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) thr...) -->
+                  <span class="method-name">verifySortByFunctionality</span>
+                  <span class="parameters">(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.etsy.Tests.CraftSuppliesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckBox(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.la...)">
+                  </a> <!-- verifyCheckBox(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.la...) -->
+                  <span class="method-name">verifyCheckBox</span>
+                  <span class="parameters">(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLocation(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method))">
+                  </a> <!-- verifyLocation(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyLocation</span>
+                  <span class="parameters">(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadioButton(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java...)">
+                  </a> <!-- verifyRadioButton(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java...) -->
+                  <span class="method-name">verifyRadioButton</span>
+                  <span class="parameters">(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShowMoreOption(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws j...)">
+                  </a> <!-- verifyShowMoreOption(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws j...) -->
+                  <span class="method-name">verifyShowMoreOption</span>
+                  <span class="parameters">(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.etsy.Tests.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwdLink(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method))">
+                  </a> <!-- verifyForgotPwdLink(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyForgotPwdLink</span>
+                  <span class="parameters">(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method))">
+                  </a> <!-- verifyLoginFunctionality(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterButtonIsPresent(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method))">
+                  </a> <!-- verifyRegisterButtonIsPresent(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyRegisterButtonIsPresent</span>
+                  <span class="parameters">(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.etsy.Tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateAccountFunctionality(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method))">
+                  </a> <!-- verifyCreateAccountFunctionality(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyCreateAccountFunctionality</span>
+                  <span class="parameters">(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method))</span>
+                  <em>
+(Confirm that an account is created when the required fields are entered and register button clicked)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTermsOfUseLink(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method))">
+                  </a> <!-- verifyTermsOfUseLink(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyTermsOfUseLink</span>
+                  <span class="parameters">(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method))</span>
+                  <em>
+(Check the terms of use link navigates to terms of link page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\17327\workspace\E2EPOMProjectWithTestNG\E2EPOMTestNGProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.etsy.Tests.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.etsy.Tests.SignInTest&quot;/&gt;
+      &lt;class name=&quot;com.etsy.Tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.etsy.Tests.HomeAndLivingTest&quot;/&gt;
+      &lt;class name=&quot;com.etsy.Tests.CraftSuppliesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyHeadingOnRegisterPage')
+data.setCell(0, 2, 'com.etsy.Tests.RegisterTest')
+data.setCell(0, 3, 40993);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCheckBox')
+data.setCell(1, 2, 'com.etsy.Tests.CraftSuppliesTest')
+data.setCell(1, 3, 13988);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySortByFunctionality')
+data.setCell(2, 2, 'com.etsy.Tests.HomeAndLivingTest')
+data.setCell(2, 3, 11651);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyHmNLivingUrl')
+data.setCell(3, 2, 'com.etsy.Tests.HomeAndLivingTest')
+data.setCell(3, 3, 11560);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyRadioButton')
+data.setCell(4, 2, 'com.etsy.Tests.CraftSuppliesTest')
+data.setCell(4, 3, 10595);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyShowMoreOption')
+data.setCell(5, 2, 'com.etsy.Tests.CraftSuppliesTest')
+data.setCell(5, 3, 8852);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLocation')
+data.setCell(6, 2, 'com.etsy.Tests.CraftSuppliesTest')
+data.setCell(6, 3, 8278);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyForgotPwdLink')
+data.setCell(7, 2, 'com.etsy.Tests.SignInTest')
+data.setCell(7, 3, 6510);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchFunctionality')
+data.setCell(8, 2, 'com.etsy.Tests.HomePageTest')
+data.setCell(8, 3, 6390);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySigninOptionIsPresent')
+data.setCell(9, 2, 'com.etsy.Tests.HomeAndLivingTest')
+data.setCell(9, 3, 6216);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomeNLivingTitle')
+data.setCell(10, 2, 'com.etsy.Tests.HomeAndLivingTest')
+data.setCell(10, 3, 5331);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyTermsOfUseLink')
+data.setCell(11, 2, 'com.etsy.Tests.RegisterTest')
+data.setCell(11, 3, 4225);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginFunctionality')
+data.setCell(12, 2, 'com.etsy.Tests.SignInTest')
+data.setCell(12, 3, 2167);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCreateAccountFunctionality')
+data.setCell(13, 2, 'com.etsy.Tests.RegisterTest')
+data.setCell(13, 3, 1780);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRegisterButtonIsPresent')
+data.setCell(14, 2, 'com.etsy.Tests.SignInTest')
+data.setCell(14, 3, 566);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySigninOptiononHomePage')
+data.setCell(15, 2, 'com.etsy.Tests.HomePageTest')
+data.setCell(15, 3, 185);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyHomePageTitle')
+data.setCell(16, 2, 'com.etsy.Tests.HomePageTest')
+data.setCell(16, 3, 35);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.etsy.Tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">startExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.etsy.Tests.HomeAndLivingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">startExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.etsy.Tests.CraftSuppliesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">startExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.etsy.Tests.SignInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">startExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHeadingOnRegisterPage(public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method))</span>
+                <span class="method-start">12633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyHeadingOnRegisterPage status=FAILURE method=RegisterTest.verifyHeadingOnRegis...)</span>
+                <span class="method-start">53634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTermsOfUseLink(public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method))</span>
+                <span class="method-start">61144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyTermsOfUseLink status=SUCCESS method=RegisterTest.verifyTermsOfUseLink(java.l...)</span>
+                <span class="method-start">65372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateAccountFunctionality(public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method))</span>
+                <span class="method-start">79057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyCreateAccountFunctionality status=SUCCESS method=RegisterTest.verifyCreateAcc...)</span>
+                <span class="method-start">80838 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterButtonIsPresent(public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method))</span>
+                <span class="method-start">92780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyRegisterButtonIsPresent status=SUCCESS method=SignInTest.verifyRegisterButton...)</span>
+                <span class="method-start">93348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">94812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwdLink(public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method))</span>
+                <span class="method-start">105137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyForgotPwdLink status=SUCCESS method=SignInTest.verifyForgotPwdLink(java.lang....)</span>
+                <span class="method-start">111650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">113216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method))</span>
+                <span class="method-start">120530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyLoginFunctionality status=SUCCESS method=SignInTest.verifyLoginFunctionality(...)</span>
+                <span class="method-start">122699 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">124295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle(public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method))</span>
+                <span class="method-start">133000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle(java.lan...)</span>
+                <span class="method-start">133037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySigninOptiononHomePage(public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method))</span>
+                <span class="method-start">143104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifySigninOptiononHomePage status=SUCCESS method=HomePageTest.verifySigninOptiono...)</span>
+                <span class="method-start">143291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">144607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFunctionality(public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method))</span>
+                <span class="method-start">152352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifySearchFunctionality status=SUCCESS method=HomePageTest.verifySearchFunctional...)</span>
+                <span class="method-start">158744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.HomeAndLivingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">160435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeNLivingTitle(public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method))</span>
+                <span class="method-start">170969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyHomeNLivingTitle status=SUCCESS method=HomeAndLivingTest.verifyHomeNLivingTit...)</span>
+                <span class="method-start">176301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">178105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySigninOptionIsPresent(public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method))</span>
+                <span class="method-start">188330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifySigninOptionIsPresent status=SUCCESS method=HomeAndLivingTest.verifySigninOpt...)</span>
+                <span class="method-start">194547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByFunctionality(public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) thr...)</span>
+                <span class="method-start">203603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifySortByFunctionality status=SUCCESS method=HomeAndLivingTest.verifySortByFunct...)</span>
+                <span class="method-start">215256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">217033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHmNLivingUrl(public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws jav...)</span>
+                <span class="method-start">226823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyHmNLivingUrl status=SUCCESS method=HomeAndLivingTest.verifyHmNLivingUrl(java....)</span>
+                <span class="method-start">238384 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.CraftSuppliesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">240909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShowMoreOption(public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws j...)</span>
+                <span class="method-start">250229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyShowMoreOption status=SUCCESS method=CraftSuppliesTest.verifyShowMoreOption(j...)</span>
+                <span class="method-start">259083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">260597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckBox(public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.la...)</span>
+                <span class="method-start">268157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyCheckBox status=SUCCESS method=CraftSuppliesTest.verifyCheckBox(java.lang.ref...)</span>
+                <span class="method-start">282146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">283641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRadioButton(public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java...)</span>
+                <span class="method-start">291527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyRadioButton status=SUCCESS method=CraftSuppliesTest.verifyRadioButton(java.la...)</span>
+                <span class="method-start">302124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">303898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLocation(public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method))</span>
+                <span class="method-start">313099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=verifyLocation status=SUCCESS method=CraftSuppliesTest.verifyLocation(java.lang.ref...)</span>
+                <span class="method-start">321379 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.etsy.Tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">323193 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,44 @@
+2020-04-09 23:47:48:156 [main] INFO  com.etsy.Pages.SignIn - Name of the passed testcase screenshot is: verifyForgotPwdLink.png
+2020-04-09 23:47:48:202 [main] INFO  com.etsy.Pages.SignIn - Base -- Browser Closed
+2020-04-09 23:47:56:518 [main] INFO  com.etsy.Pages.SignIn - Browser is up and running AND Application is launched successfully
+2020-04-09 23:47:56:521 [main] INFO  com.etsy.Pages.SignIn - Name of the testcase is: verifyLoginFunctionality
+2020-04-09 23:47:58:686 [main] INFO  com.etsy.Pages.HomePage - SigninPageTest: 3 - Logged into etsy.com site and navigated to the home page
+2020-04-09 23:47:58:689 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed is verifyLoginFunctionality
+2020-04-09 23:47:58:743 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed - so email is not sent
+2020-04-09 23:47:59:304 [main] INFO  com.etsy.Pages.HomePage - Name of the passed testcase screenshot is: verifyLoginFunctionality.png
+2020-04-09 23:47:59:305 [main] INFO  com.etsy.Pages.HomePage - Base -- Browser Closed
+2020-04-09 23:48:08:991 [main] INFO  com.etsy.Pages.HomePage - Name of the testcase is: verifyHomePageTitle
+2020-04-09 23:48:09:024 [main] INFO  com.etsy.Pages.HomePage - HomePageTest: 1 - Validated Home page title
+2020-04-09 23:48:09:027 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed is verifyHomePageTitle
+2020-04-09 23:48:09:027 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed - so email is not sent
+2020-04-09 23:48:09:800 [main] INFO  com.etsy.Pages.HomePage - Name of the passed testcase screenshot is: verifyHomePageTitle.png
+2020-04-09 23:48:09:801 [main] INFO  com.etsy.Pages.HomePage - Base -- Browser Closed
+2020-04-09 23:48:19:096 [main] INFO  com.etsy.Pages.HomePage - Name of the testcase is: verifySigninOptiononHomePage
+2020-04-09 23:48:19:278 [main] INFO  com.etsy.Pages.HomePage - HomePageTest: 2 - Validated the presence of signin option in home page
+2020-04-09 23:48:19:280 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed is verifySigninOptiononHomePage
+2020-04-09 23:48:19:281 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed - so email is not sent
+2020-04-09 23:48:19:837 [main] INFO  com.etsy.Pages.HomePage - Name of the passed testcase screenshot is: verifySigninOptiononHomePage.png
+2020-04-09 23:48:19:837 [main] INFO  com.etsy.Pages.HomePage - Base -- Browser Closed
+2020-04-09 23:48:28:343 [main] INFO  com.etsy.Pages.HomePage - Name of the testcase is: verifySearchFunctionality
+2020-04-09 23:48:34:731 [main] INFO  com.etsy.Pages.HomePage - HomePageTest: 3 - Validated search for functionality
+2020-04-09 23:48:34:734 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed is verifySearchFunctionality
+2020-04-09 23:48:34:734 [main] INFO  com.etsy.Pages.HomePage - Test Case Passed - so email is not sent
+2020-04-09 23:48:35:477 [main] INFO  com.etsy.Pages.HomePage - Name of the passed testcase screenshot is: verifySearchFunctionality.png
+2020-04-09 23:48:35:478 [main] INFO  com.etsy.Pages.HomePage - Base -- Browser Closed
+2020-04-09 23:48:46:960 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the testcase is: verifyHomeNLivingTitle
+2020-04-09 23:48:52:289 [main] INFO  com.etsy.Pages.HomeAndLiving - HomeNLivingTest: 1 - Validated HomeNLiving Title
+2020-04-09 23:48:52:291 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed is verifyHomeNLivingTitle
+2020-04-09 23:48:52:291 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed - so email is not sent
+2020-04-09 23:48:52:866 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the passed testcase screenshot is: verifyHomeNLivingTitle.png
+2020-04-09 23:48:52:866 [main] INFO  com.etsy.Pages.HomeAndLiving - Base -- Browser Closed
+2020-04-09 23:49:04:320 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the testcase is: verifySigninOptionIsPresent
+2020-04-09 23:49:10:535 [main] INFO  com.etsy.Pages.HomeAndLiving - HomeNLivingTest: 2 - Validated the presence of signin option
+2020-04-09 23:49:10:537 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed is verifySigninOptionIsPresent
+2020-04-09 23:49:10:537 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed - so email is not sent
+2020-04-09 23:49:11:093 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the passed testcase screenshot is: verifySigninOptionIsPresent.png
+2020-04-09 23:49:11:093 [main] INFO  com.etsy.Pages.HomeAndLiving - Base -- Browser Closed
+2020-04-09 23:49:19:594 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the testcase is: verifySortByFunctionality
+2020-04-09 23:49:31:242 [main] INFO  com.etsy.Pages.HomeAndLiving - HomeNLivingTest: 3 - Validated Sort By dropdown
+2020-04-09 23:49:31:246 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed is verifySortByFunctionality
+2020-04-09 23:49:31:246 [main] INFO  com.etsy.Pages.HomeAndLiving - Test Case Passed - so email is not sent
+2020-04-09 23:49:32:105 [main] INFO  com.etsy.Pages.HomeAndLiving - Name of the passed testcase screenshot is: verifySortByFunctionality.png
