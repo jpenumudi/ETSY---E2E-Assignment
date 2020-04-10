@@ -42,6 +42,7 @@ public class TestBase {
 	public TestBase(){ 
 		
 		// Initializing the log object (Log) using getLogger method of LogManager class. 
+		// Implementing log
 		
 		Log = LogManager.getLogger(this.getClass()); 
 						
