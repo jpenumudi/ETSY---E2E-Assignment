@@ -8,30 +8,45 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">324,117</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">42,612</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.etsy.Tests.RegisterTest</td><td><a href="#m0">verifyHeadingOnRegisterPage</a></td><td rowspan="1">1586490368622</td><td rowspan="1">40993</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.etsy.Tests.CraftSuppliesTest</td><td><a href="#m1">verifyCheckBox</a></td><td rowspan="1">1586490624146</td><td rowspan="1">13988</td></tr><tr class="passedeven"><td><a href="#m2">verifyLocation</a></td><td rowspan="1">1586490669088</td><td rowspan="1">8278</td></tr><tr class="passedeven"><td><a href="#m3">verifyRadioButton</a></td><td rowspan="1">1586490647516</td><td rowspan="1">10595</td></tr><tr class="passedeven"><td><a href="#m4">verifyShowMoreOption</a></td><td rowspan="1">1586490606218</td><td rowspan="1">8852</td></tr><tr class="passedodd"><td rowspan="4">com.etsy.Tests.HomeAndLivingTest</td><td><a href="#m5">verifyHmNLivingUrl</a></td><td rowspan="1">1586490582812</td><td rowspan="1">11560</td></tr><tr class="passedodd"><td><a href="#m6">verifyHomeNLivingTitle</a></td><td rowspan="1">1586490526958</td><td rowspan="1">5331</td></tr><tr class="passedodd"><td><a href="#m7">verifySigninOptionIsPresent</a></td><td rowspan="1">1586490544319</td><td rowspan="1">6216</td></tr><tr class="passedodd"><td><a href="#m8">verifySortByFunctionality</a></td><td rowspan="1">1586490559592</td><td rowspan="1">11651</td></tr><tr class="passedeven"><td rowspan="3">com.etsy.Tests.HomePageTest</td><td><a href="#m9">verifyHomePageTitle</a></td><td rowspan="1">1586490488989</td><td rowspan="1">35</td></tr><tr class="passedeven"><td><a href="#m10">verifySearchFunctionality</a></td><td rowspan="1">1586490508341</td><td rowspan="1">6390</td></tr><tr class="passedeven"><td><a href="#m11">verifySigninOptiononHomePage</a></td><td rowspan="1">1586490499093</td><td rowspan="1">185</td></tr><tr class="passedodd"><td rowspan="2">com.etsy.Tests.RegisterTest</td><td><a href="#m12">verifyCreateAccountFunctionality</a></td><td rowspan="1">1586490435046</td><td rowspan="1">1780</td></tr><tr class="passedodd"><td><a href="#m13">verifyTermsOfUseLink</a></td><td rowspan="1">1586490417133</td><td rowspan="1">4225</td></tr><tr class="passedeven"><td rowspan="3">com.etsy.Tests.SignInTest</td><td><a href="#m14">verifyForgotPwdLink</a></td><td rowspan="1">1586490461126</td><td rowspan="1">6510</td></tr><tr class="passedeven"><td><a href="#m15">verifyLoginFunctionality</a></td><td rowspan="1">1586490476519</td><td rowspan="1">2167</td></tr><tr class="passedeven"><td><a href="#m16">verifyRegisterButtonIsPresent</a></td><td rowspan="1">1586490448769</td><td rowspan="1">566</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.etsy.Tests.RegisterTest</td><td><a href="#m0">verifyHeadingOnRegisterPage</a></td><td rowspan="1">1586788004586</td><td rowspan="1">30888</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.etsy.Tests.RegisterTest#verifyHeadingOnRegisterPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method)</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Please check your actual and expected text --  expected [Create your account] but found [ ]
+<h2>Default test</h2><h3 id="m0">com.etsy.Tests.RegisterTest#verifyHeadingOnRegisterPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(java.lang.reflect.Method)</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Please check your actual and expected text --  expected [Create your account] but found [ ]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
 	at com.etsy.Tests.RegisterTest.verifyHeadingOnRegisterPage(RegisterTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.etsy.Tests.CraftSuppliesTest#verifyCheckBox</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.CraftSuppliesTest.verifyCheckBox(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.etsy.Tests.CraftSuppliesTest#verifyLocation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.CraftSuppliesTest.verifyLocation(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.etsy.Tests.CraftSuppliesTest#verifyRadioButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.CraftSuppliesTest.verifyRadioButton(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.etsy.Tests.CraftSuppliesTest#verifyShowMoreOption</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.CraftSuppliesTest.verifyShowMoreOption(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.etsy.Tests.HomeAndLivingTest#verifyHmNLivingUrl</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomeAndLivingTest.verifyHmNLivingUrl(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.etsy.Tests.HomeAndLivingTest#verifyHomeNLivingTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomeAndLivingTest.verifyHomeNLivingTitle(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.etsy.Tests.HomeAndLivingTest#verifySigninOptionIsPresent</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomeAndLivingTest.verifySigninOptionIsPresent(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.etsy.Tests.HomeAndLivingTest#verifySortByFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomeAndLivingTest.verifySortByFunctionality(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.etsy.Tests.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomePageTest.verifyHomePageTitle(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.etsy.Tests.HomePageTest#verifySearchFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomePageTest.verifySearchFunctionality(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.etsy.Tests.HomePageTest#verifySigninOptiononHomePage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.HomePageTest.verifySigninOptiononHomePage(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.etsy.Tests.RegisterTest#verifyCreateAccountFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.RegisterTest.verifyCreateAccountFunctionality(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.etsy.Tests.RegisterTest#verifyTermsOfUseLink</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.RegisterTest.verifyTermsOfUseLink(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.etsy.Tests.SignInTest#verifyForgotPwdLink</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.SignInTest.verifyForgotPwdLink(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.etsy.Tests.SignInTest#verifyLoginFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.SignInTest.verifyLoginFunctionality(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.etsy.Tests.SignInTest#verifyRegisterButtonIsPresent</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.etsy.Tests.SignInTest.verifyRegisterButtonIsPresent(java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
